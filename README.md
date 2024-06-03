@@ -30,3 +30,16 @@ to push
 git push origin <branch name>
 ```
 
+Setup IN GITHUB requires parameter
+
+EMAIL : <HEROKU_EMAIL>
+HEROKU_SECRET: <HEROKU_SECRET>
+HEROKU_APP_NAME : <HEROKU_APP_NAME>
+
+Build Docker Image
+
+```
+docker build -t <image_name>:<tagname> .
+
+Note: Image namefor docker must be in lowercase
+
